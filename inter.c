@@ -20,8 +20,9 @@ void	ft_histogram(int *alpha, char *str)
 {
 	while (*str)
 	{
-		if (alpha[(int)*str] == 0)
-			alpha[(int)*str] = 1;
+		alpha[(int)*str]++;
+//		if (alpha[(int)*str] == 0)
+//			alpha[(int)*str] = 1;
 		str++;
 	}
 }

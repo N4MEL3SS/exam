@@ -1,6 +1,6 @@
 #include <unistd.h>
 
-#define N 256
+#define N 128
 
 void	ft_putendl(void)
 {
